@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/about_us_ID"
+            android:checked="true"
+            android:title="About Us"
+            android:icon="@drawable/about_us"/>
+
+        <item
+            android:id="@+id/privacy_policy_ID"
+            android:title="Privacy Policy"
+            android:icon="@drawable/privacy_policy"/>
+
+        <item
+            android:id="@+id/my_downloads_ID"
+            android:title="My Downloads"
+            android:icon="@drawable/my_download"/>
+
+        <item
+            android:id="@+id/change_password_ID"
+            android:title="Change Pasword"
+            android:icon="@drawable/password"/>
+
+        <item
+            android:id="@+id/discover_people_ID"
+            android:title="Discover People"
+            android:icon="@drawable/discover_people"/>
+
+        <item
+            android:id="@+id/log_out_ID"
+            android:title="Log Out"
+            android:icon="@drawable/log_out"/>
+
+    </group>
+</menu>
